@@ -18,8 +18,9 @@ function App() {
           Learn React
         </a>
       </header>
-      <iframe src="https://sandy.utah.gov">
-    </iframe>
+      <p align="center" >
+        <iframe src="https://sandy.utah.gov"></iframe>
+      </p>
     </div>
   );
 }
