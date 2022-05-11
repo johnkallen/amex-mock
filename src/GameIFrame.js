@@ -1,5 +1,6 @@
 import './App.css';
-import './amex.css'
+import './amex.css';
+import './GameIFrame.css';
 import $ from 'jquery'
 import React from 'react';
 
@@ -8,7 +9,7 @@ class GameIFrame extends React.Component {
     componentDidMount() {
 
         $(function () {
-            $("#myframe").on("click", fullscreenClick)
+            $("#frameButton").on("click", fullscreenClick)
 
             function fullscreenClick() {
                 //The button is this
@@ -35,6 +36,7 @@ class GameIFrame extends React.Component {
                     "top": pos.top + "px",
                     "z-index": 1000,
                     "overflow": "hidden",
+                    "height": "100vh"
                 });
 
                 //Set class so it can be animated
@@ -44,21 +46,31 @@ class GameIFrame extends React.Component {
                 $(box).animate({
                     "top": 0,
                     "left": 0,
-                }, 250);
-
+                }, 5000);
             }
         });
     }
 
     render() {
-        
-        return(
-        <div id = "myframe" className = 'iframeHolder' />
-    );
+
+        return (
+            <div className='gameFrame'>
+                <iframe id="myframe" src='https://www.sandy.utah.gov'></iframe>
+
+                <div id='frameButton'>
+                    <div className="picText">
+                        <h1>Need A Break</h1>
+                        <br />
+                        <h2>Play vPayment Invoice Invaders</h2>
+                        <h6>*terms and restrictions apply</h6>
+                    </div>
+                </div>
+            </div>
+        );
     };
 
-    
-    
+
+
 }
 
 export default GameIFrame;

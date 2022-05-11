@@ -17,11 +17,14 @@
 }
 
 .centerHolder{
+    max-height: 500px;
+    margin: 0 1.5rem;
     width: 33vw;
     flex: 1;
 }
 
 .rightHolder{
+    max-height: 500px;
     width: 33vw;
     flex: 1;
 }
@@ -30,3 +33,4 @@
     width: calc(100vw - 30px);
     height: calc(100vh - 30px);
 }
+
