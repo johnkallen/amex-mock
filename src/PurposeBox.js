@@ -1,29 +1,73 @@
 import UtilBox from './UtilBox';
+import PersonalCards from './Images/PersonalCards.jpg';
+import SavingAccounts from './Images/SavingAccounts.png';
+import PersonalLoans from './Images/PersonalLoans.png';
+import PersonalChecking from './Images/PersonalChecking.png';
+import GiftCards from './Images/GiftCards.png';
+import BusinessCards from './Images/BusinessCards.jpg';
+import CorporatePrograms from './Images/CorporatePrograms.jpg';
+import PaymentSolutions from './Images/PaymentSolutions.png';
+import BusinessChecking from './Images/BusinessChecking.png';
+import BusinessLineOfCredit from './Images/BusinessLineOfCredit.png';
+import AcceptAmericanExpress from './Images/AcceptAmericanExpress.png';
 
 function PurposeBox(props) {
 	const personalObject = [
-		'Personal Cards',
-		'Saving Accounts',
-		'Personal Loans',
-		'Personal Checking',
-		'Gife Cards',
+		{
+			title: 'Personal Cards',
+			image: PersonalCards,
+		},
+		{
+			title: 'Saving Accounts',
+			image: SavingAccounts,
+		},
+		{
+			title: 'Personal Loans',
+			image: PersonalLoans,
+		},
+		{
+			title: 'Personal Checking',
+			image: PersonalChecking,
+		},
+		{
+			title: 'Gift Cards',
+			image: GiftCards,
+		},
 	];
 
 	const businessObject = [
-		'Business Cards',
-		'Corporate Programs',
-		'Payment Solutions',
-		'Business Checking',
-		'Business Line of Credit',
-		'Accept American Express',
+		{
+			title: 'Business Cards',
+			image: BusinessCards,
+		},
+		{
+			title: 'Corporate Programs',
+			image: CorporatePrograms,
+		},
+		{
+			title: 'Payment Solutions',
+			image: PaymentSolutions,
+		},
+		{
+			title: 'Business Checking',
+			image: BusinessChecking,
+		},
+		{
+			title: 'Business Line of Credit',
+			image: BusinessLineOfCredit,
+		},
+		{
+			title: 'Accept American Express',
+			image: AcceptAmericanExpress,
+		},
 	];
 
 	const listOfPersonalObject = personalObject.map((item) => (
-		<UtilBox title={item} />
+		<UtilBox title={item.title} image={item.image} />
 	));
 
 	const listOfBusinessObject = businessObject.map((item) => (
-		<UtilBox title={item} />
+		<UtilBox title={item.title} image={item.image} />
 	));
 
 	return (
