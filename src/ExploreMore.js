@@ -8,8 +8,8 @@ export default function ExploreMore() {
 			<h2>Explore More</h2>
 			<div className='boxHolder'>
 				<ExploreBox image='womanLaptop.jpeg' />
-				{/* <ExploreBox image="menCity.jpeg" />
-                <ExploreBox image="womanLaptop2.jpeg"/> */}
+				<ExploreBox image="menCity.jpeg" />
+                <ExploreBox image="womanLaptop2.jpeg"/>
 			</div>
 		</div>
 	);
