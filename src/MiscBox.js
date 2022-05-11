@@ -6,7 +6,7 @@ function MiscBox(props) {
         <div className='col-md-4 margin-0-tb'>
             <div className='border: ;'>
                 <div className='contentlibrary-container'>
-                    <div className='cmp-contentlibrary-container--showcase-card showcase-card' >
+                    <div className='misc-box cmp-contentlibrary-container--showcase-card showcase-card' >
                         <div className='card card-rounded card-relative pad-responsive dls-white-01-bg'>
                             <div className='text-align-center'>
                                 <span className='icon icon-lg margin-1-t margin-b'>

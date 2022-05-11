@@ -32,7 +32,16 @@
   flex-direction: row;
   justify-content: center ;
   max-width: 1280px;
-  margin:auto
+  margin:auto;
+  background-image: url(https://www.americanexpress.com/content/dam/amex/common/homepage/images/ws-bg-light-grey.png);
+  background-repeat: repeat;
+}
+
+.misc-box
+{
+  padding-top: 1.875rem !important;
+  padding-bottom: 1.875rem !important;
+  height: 360px;
 }
 
 @keyframes App-logo-spin {
