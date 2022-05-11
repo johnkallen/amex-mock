@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import ExploreMore from './ExploreMore';
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -26,6 +28,12 @@ function App() {
       <p>this is a test</p>
       <p>this is a test</p>
       <p>this is a test</p>
+=======
+      <ExploreMore/>
+      {/* <p align="center" >
+        <iframe src="https://sandy.utah.gov"></iframe>
+      </p> */}
+>>>>>>> 746561db40c7fff7aa5ff125aecafa484b5fa042
     </div>
   );
 }

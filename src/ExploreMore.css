@@ -1,0 +1,4 @@
+.boxHolder {
+    display: flex;
+    flex-direction: row;
+}
