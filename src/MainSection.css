@@ -1,17 +1,19 @@
 .main {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     padding: 2rem 0;
     background-color: lightgreen;
-    margin: 0 1rem;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .leftHolder {
-    height: 33vh;
+    width: 33vw;
     background-color: red;
-    flex: .5;
+    flex: .7;
+    margin-left: 0 1rem;
 }
 
 .centerHolder{
@@ -22,5 +24,4 @@
 .rightHolder{
     width: 33vw;
     flex: 1;
-    
 }
