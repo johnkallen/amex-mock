@@ -1,10 +1,11 @@
 import React from 'react'
+import GameIFrame from './GameIFrame'
 import './ImageSectionSmall.css'
 
 export default function ImageSectionSmall() {
   return (
     <div className='rightSection'>
-        <div className='iframeHolder'>to be iframe</div>
+        <GameIFrame />
         <img className='cardOfferSmall' src="./cardOffer.png" alt="card offer" />
     </div>
   )

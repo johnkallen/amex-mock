@@ -7,6 +7,7 @@ import MiscBox from './MiscBox';
 import Footer from './Footer';
 import MiscBoxContainer from './MiscBoxContainer';
 import Header from './Header';
+import $ from 'jquery';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -25,3 +25,8 @@
     width: 33vw;
     flex: 1;
 }
+
+.fullscreen {
+    width: calc(100vw - 30px);
+    height: calc(100vh - 30px);
+}
