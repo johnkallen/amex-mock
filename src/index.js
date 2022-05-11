@@ -12,10 +12,12 @@ import Header from './Header';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header/>
-    <App />
-    <MiscBoxContainer />
-    <Footer/>
+    <div className="parent-style">
+      <Header/>
+      <App />
+      <MiscBoxContainer />
+      <Footer/>
+    </div>
   </React.StrictMode>
 );
 

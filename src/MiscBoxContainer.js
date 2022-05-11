@@ -16,7 +16,7 @@ function MiscBoxContainer(props) {
 
         // </div>
 
-        <div className='misc-flex'>
+        <div className='misc-flex parent-style'>
             <MiscBox
                 image="./pointer.png"
                 title="Places to Use Your Card"
