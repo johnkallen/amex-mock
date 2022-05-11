@@ -1,6 +1,6 @@
-import React from 'react'
-import './ExploreBox.css'
-import './amex.css'
+import React from 'react';
+import './ExploreBox.css';
+import LeftBox from './LeftBox';
 
 export default function ExploreBox(props) {
   return (
