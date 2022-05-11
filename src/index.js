@@ -5,14 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MiscBox from './MiscBox';
 import Footer from './Footer';
+import MiscBoxContainer from './MiscBoxContainer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <MiscBox image="./pointer.png" />
-    <MiscBox image="" />
+    <MiscBoxContainer />
     <Footer/>
   </React.StrictMode>
 );
