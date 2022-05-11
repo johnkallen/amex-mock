@@ -1,7 +1,7 @@
-* {
-    margin: 0 1rem
+.ExploreBox {
+    margin: 0 1rem;
 }
-img {
+.exploreImage {
     width: auto;
     height: 15vh;
     max-width: 25vw;

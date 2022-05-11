@@ -1,5 +1,14 @@
-h2 {
+.exploreDiv{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 2rem 0;
+}
+
+h2 {
+    padding-bottom: 2rem;
 }
 
 .boxHolder {

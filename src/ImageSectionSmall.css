@@ -1,15 +1,19 @@
 .rightSection{
     width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
 }
 
 .iframeHolder {
     background-color: red;
-    height: 16vh;
+    height: 20vh;
     width: 100%;
     margin-bottom: 1vh;
 }
 
 .cardOfferSmall {
-    height: 16vh;
+    height: 55%;
     width: 100%;
 }
