@@ -55,11 +55,7 @@ function PurposeBox(props) {
 		{
 			title: 'Business Line of Credit',
 			image: BusinessLineOfCredit,
-		},
-		{
-			title: 'Accept American Express',
-			image: AcceptAmericanExpress,
-		},
+		}
 	];
 
 	const listOfPersonalObject = personalObject.map((item) => (
