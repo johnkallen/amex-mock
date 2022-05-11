@@ -53,10 +53,7 @@ class GameIFrame extends React.Component {
     render() {
         
         return(
-        <div id = "myframe" className = 'iframeHolder' >
-            <button id='clickhere'>click me</button>
-        </div>
-
+        <div id = "myframe" className = 'iframeHolder' />
     );
     };
 
