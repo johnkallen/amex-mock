@@ -1,24 +1,22 @@
 import { useState } from 'react';
 import PurposeBox from './PurposeBox';
+import classes from './LeftBox.module.css';
 
 function LeftBox() {
 	const [state, setState] = useState('personal');
 
 	return (
-		// <div className='col-md-3 col-md-offset-0 margin-0-tb '>
-		// 	<div className='tabscomp'>
-		// 		<div className='tabs border'>
-		<div className='tab-menu'>
+		<div className={classes.bigBox}>
 			<button
 				id='personal'
-				className='tab-link pad-responsive-lr'
+				className={classes.box}
 				onClick={() => setState('personal')}
 			>
 				<span>Personal</span>
 			</button>
 			<button
 				id='business'
-				className='tab-link pad-responsive-lr'
+				className={classes.box}
 				onClick={() => setState('business')}
 			>
 				<span>Business</span>
@@ -29,9 +27,6 @@ function LeftBox() {
 				<PurposeBox name='business' />
 			)}
 		</div>
-		// 		</div>
-		// 	</div>
-		// </div>
 	);
 }
 
