@@ -7,7 +7,9 @@ import LeftBox from './LeftBox';
 export default function MainSection() {
 	return (
 		<div className='main'>
-			<LeftBox />
+			<div className='leftHolder'>
+				<LeftBox />
+			</div>
 			<div className='centerHolder'>
 				<ImageSectionLarge />
 			</div>
