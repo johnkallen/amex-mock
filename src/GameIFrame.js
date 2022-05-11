@@ -34,6 +34,7 @@ class GameIFrame extends React.Component {
                     "left": pos.left + "px",
                     "top": pos.top + "px",
                     "z-index": 1000,
+                    "overflow": "hidden",
                 });
 
                 //Set class so it can be animated
