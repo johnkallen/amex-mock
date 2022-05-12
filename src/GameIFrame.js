@@ -3,7 +3,7 @@ import './amex.css';
 import './GameIFrame.css';
 import $ from 'jquery'
 import React from 'react';
-import invaders from './Images/play_pay_invaders.png';
+// import invaders from './Images/play_pay_invaders.png';
 
 class GameIFrame extends React.Component {
 
@@ -58,17 +58,20 @@ class GameIFrame extends React.Component {
             <div className='gameFrame'>
                 {/* <iframe id="myframe" src='http://localhost:3000/'></iframe> */}
                 <div>
-                    <img src="./Images/pay_invaders.png" height="200" width="300" href="http://localhost:3000/" />
-                    bogus
+                    <a href="http://localhost:3000/">
+                        <img className='gameImage' src="./play_pay_invaders.png" height="200" width="300" />
+                    </a>
                 </div>
 
                 <div id='frameButton'>
-                    <div className="picText">
-                        <h1>Need A Break</h1>
-                        <br />
-                        <h2>Play vPayment Invoice Invaders</h2>
-                        <h6>*terms and restrictions apply</h6>
-                    </div>
+                    <a href="http://localhost:3000/">
+                        <div className="picText">
+                            <h1>Need A Break</h1>
+                            <br />
+                            <h2>Play vPayment Invoice Invaders</h2>
+                            <h6>*terms and restrictions apply</h6>
+                        </div>
+                    </a>
                 </div>
             </div>
         );
